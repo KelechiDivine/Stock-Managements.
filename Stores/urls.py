@@ -15,10 +15,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< HEAD
 from stockmgmgt import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name= 'home')
 
+=======
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+>>>>>>> 87bb5edb326c584cbbae24757dca6d006e18860b
 ]

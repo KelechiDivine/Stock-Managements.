@@ -18,4 +18,8 @@ class Stock(models.Model):
     export_to_CSV = models.BooleanField(default=False)
     
     def __str__(self):
+<<<<<<< HEAD
         return self.item_name + '' + self.quantity
+=======
+        return self.item_name
+>>>>>>> 87bb5edb326c584cbbae24757dca6d006e18860b
